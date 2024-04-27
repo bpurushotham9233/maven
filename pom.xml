@@ -140,18 +140,6 @@ under the License.
     <url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url>
   </ciManagement>
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-31-250-releases</name>
-        <url>http://51.20.118.161:8081/artifactory/purush1</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-31-250-snapshots</name>
-        <url>http://51.20.118.161:8081/artifactory/purush1</url>
-    </snapshotRepository>
-  </distributionManagement>
-  <distributionManagement>
     <site>
       <id>apache.website</id>
       <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</url>
